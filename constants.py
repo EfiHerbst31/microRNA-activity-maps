@@ -1,0 +1,15 @@
+_SPECIES_HOMO_SAPIENS = 'homo_sapiens'
+_SPECIES_MUS_MUSCULUS = 'mus_musculus'
+_SUPPORTED_SPECIES = frozenset({
+  _SPECIES_HOMO_SAPIENS,
+  _SPECIES_MUS_MUSCULUS
+})
+
+_DRAW_ALL = 'all'
+_DRAW_BOTTOM_10 = 'bottom_10'
+_DRAW_TOP_10 = 'top_10'
+_SUPPORTED_DRAW = frozenset({
+  _DRAW_ALL,
+  _DRAW_BOTTOM_10,
+  _DRAW_TOP_10
+})
